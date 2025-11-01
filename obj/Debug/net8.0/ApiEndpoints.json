@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "App.Api.Controllers.AISymptomsMappingController",
+    "Method": "AnalyzeSymptomsAsync",
+    "RelativePath": "api/AISymptomsMapping",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "symptoms",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "App.Api.Controllers.AISymptomsMappingController",
+    "Method": "GenerateAndSaveEmbeddingsFile",
+    "RelativePath": "api/AISymptomsMapping/GenerateAndSaveEmbeddingsFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "symptoms",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "App.Api.Controllers.UserController",
+    "Method": "CreateUserAsync",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "App.Application.Dto.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "App.Api.Controllers.UserController",
+    "Method": "GetUsersAsync",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

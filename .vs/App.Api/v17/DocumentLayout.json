@@ -1,0 +1,594 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\EmbeddingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EE9DE68-CAC0-E4E6-576B-0999E73B9361}|App.Api.csproj|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\app.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7EE9DE68-CAC0-E4E6-576B-0999E73B9361}|App.Api.csproj|solutionrelative:app.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4077635C-A363-CAF2-0B33-903C61BE1796}|..\\App.Application\\App.Application.csproj|d:\\smartdata\\ai assignment\\dotnetsmartpodbackendinitialarch\\app.application\\app.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\MedicalTaxonomyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Repositories\\ISymptomEmbeddingRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Infrastructure\\Repository\\SymptomEmbeddingRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\wwwroot\\symptom_embeddings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wwwroot\\symptom_embeddings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Development.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Development.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\SymptomAnalysisService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Services\\IEmbeddingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Infrastructure\\Repository\\DoctorRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\appsettings.Production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.Production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\appsettings.Test.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.Test.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Services\\AIPoweredSymptomToSpecialistMapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Controllers\\AISymptomsMappingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AISymptomsMappingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Infrastructure\\Repository\\BaseRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Domain\\Entities\\BaseEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Domain\\Entities\\Doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\DoctorRagService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Configuration\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Configuration\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Infrastructure\\Repository\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Domain\\Entities\\SymptomEmbedding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Configuration\\DbContextInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Configuration\\DbContextInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Repositories\\IDoctorsRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Repositories\\IBaseRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Repositories\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Services\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\IUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Services.Test\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T15:50:20.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MedicalTaxonomyService.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\MedicalTaxonomyService.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Service\\MedicalTaxonomyService.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\MedicalTaxonomyService.cs",
+              "RelativeToolTip": "..\\App.Application\\Service\\MedicalTaxonomyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T17:51:18.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISymptomEmbeddingRepository.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Repositories\\ISymptomEmbeddingRepository.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Interfaces\\Repositories\\ISymptomEmbeddingRepository.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Repositories\\ISymptomEmbeddingRepository.cs",
+              "RelativeToolTip": "..\\App.Application\\Interfaces\\Repositories\\ISymptomEmbeddingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T09:46:37.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SymptomEmbeddingRepository.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Infrastructure\\Repository\\SymptomEmbeddingRepository.cs",
+              "RelativeDocumentMoniker": "..\\App.Infrastructure\\Repository\\SymptomEmbeddingRepository.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Infrastructure\\Repository\\SymptomEmbeddingRepository.cs",
+              "RelativeToolTip": "..\\App.Infrastructure\\Repository\\SymptomEmbeddingRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:17:08.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmbeddingService.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\EmbeddingService.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Service\\EmbeddingService.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\EmbeddingService.cs",
+              "RelativeToolTip": "..\\App.Application\\Service\\EmbeddingService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAqwNUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:24:51.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "symptom_embeddings.json",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\wwwroot\\symptom_embeddings.json",
+              "RelativeDocumentMoniker": "wwwroot\\symptom_embeddings.json",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\wwwroot\\symptom_embeddings.json",
+              "RelativeToolTip": "wwwroot\\symptom_embeddings.json",
+              "ViewState": "AgIAABsJAAAAAAAAAAAAAC4PAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-15T18:37:25.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Development.env",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Development.env",
+              "RelativeDocumentMoniker": "Development.env",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Development.env",
+              "RelativeToolTip": "Development.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-13T06:19:39.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-20T14:50:46.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-09T17:35:09.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-18T15:53:12.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SymptomAnalysisService.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\SymptomAnalysisService.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Service\\SymptomAnalysisService.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\SymptomAnalysisService.cs",
+              "RelativeToolTip": "..\\App.Application\\Service\\SymptomAnalysisService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAASwCIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T17:56:47.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEmbeddingService.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Services\\IEmbeddingService.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Interfaces\\Services\\IEmbeddingService.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Services\\IEmbeddingService.cs",
+              "RelativeToolTip": "..\\App.Application\\Interfaces\\Services\\IEmbeddingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:24:02.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Infrastructure\\Repository\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "..\\App.Infrastructure\\Repository\\DoctorRepository.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Infrastructure\\Repository\\DoctorRepository.cs",
+              "RelativeToolTip": "..\\App.Infrastructure\\Repository\\DoctorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:16:38.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "appsettings.Production.json",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\appsettings.Production.json",
+              "RelativeToolTip": "appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-18T15:53:09.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Test.json",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\appsettings.Test.json",
+              "RelativeDocumentMoniker": "appsettings.Test.json",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\appsettings.Test.json",
+              "RelativeToolTip": "appsettings.Test.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-18T15:53:14.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AIPoweredSymptomToSpecialistMapping.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Services\\AIPoweredSymptomToSpecialistMapping.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Interfaces\\Services\\AIPoweredSymptomToSpecialistMapping.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Services\\AIPoweredSymptomToSpecialistMapping.cs",
+              "RelativeToolTip": "..\\App.Application\\Interfaces\\Services\\AIPoweredSymptomToSpecialistMapping.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T17:30:37.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AISymptomsMappingController.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Controllers\\AISymptomsMappingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AISymptomsMappingController.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Controllers\\AISymptomsMappingController.cs",
+              "RelativeToolTip": "Controllers\\AISymptomsMappingController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T11:41:58.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Infrastructure\\Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\App.Infrastructure\\Repository\\BaseRepository.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Infrastructure\\Repository\\BaseRepository.cs",
+              "RelativeToolTip": "..\\App.Infrastructure\\Repository\\BaseRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T11:15:15.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Domain\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\App.Domain\\Entities\\BaseEntity.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Domain\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "..\\App.Domain\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T11:28:17.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Doctors.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Domain\\Entities\\Doctors.cs",
+              "RelativeDocumentMoniker": "..\\App.Domain\\Entities\\Doctors.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Domain\\Entities\\Doctors.cs",
+              "RelativeToolTip": "..\\App.Domain\\Entities\\Doctors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:07:22.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DoctorRagService.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\DoctorRagService.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Service\\DoctorRagService.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\DoctorRagService.cs",
+              "RelativeToolTip": "..\\App.Application\\Service\\DoctorRagService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADgvxsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T17:52:15.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Configuration\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Configuration\\DependencyInjection.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Configuration\\DependencyInjection.cs",
+              "RelativeToolTip": "Configuration\\DependencyInjection.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T17:32:57.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Infrastructure\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\App.Infrastructure\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Infrastructure\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "..\\App.Infrastructure\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:17:15.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SymptomEmbedding.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Domain\\Entities\\SymptomEmbedding.cs",
+              "RelativeDocumentMoniker": "..\\App.Domain\\Entities\\SymptomEmbedding.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Domain\\Entities\\SymptomEmbedding.cs",
+              "RelativeToolTip": "..\\App.Domain\\Entities\\SymptomEmbedding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T09:43:14.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DbContextInitializer.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Configuration\\DbContextInitializer.cs",
+              "RelativeDocumentMoniker": "Configuration\\DbContextInitializer.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Configuration\\DbContextInitializer.cs",
+              "RelativeToolTip": "Configuration\\DbContextInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T17:36:09.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T17:39:55.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Service\\UserService.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Service\\UserService.cs",
+              "RelativeToolTip": "..\\App.Application\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T11:32:12.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T17:39:56.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IDoctorsRepository.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Repositories\\IDoctorsRepository.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Interfaces\\Repositories\\IDoctorsRepository.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Repositories\\IDoctorsRepository.cs",
+              "RelativeToolTip": "..\\App.Application\\Interfaces\\Repositories\\IDoctorsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:07:59.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Repositories\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Interfaces\\Repositories\\IBaseRepository.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Repositories\\IBaseRepository.cs",
+              "RelativeToolTip": "..\\App.Application\\Interfaces\\Repositories\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T17:42:39.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "..\\App.Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T17:43:22.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Interfaces\\Services\\IUserService.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\Services\\IUserService.cs",
+              "RelativeToolTip": "..\\App.Application\\Interfaces\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T17:50:42.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\App.Application\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\App.Application\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T17:30:22.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Services.Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\App.Services.Test\\UnitTest1.cs",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Services.Test\\UnitTest1.cs",
+              "RelativeToolTip": "..\\App.Services.Test\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:10:50.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-18T15:34:57.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.Api.csproj",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\App.Api.csproj",
+              "RelativeDocumentMoniker": "App.Api.csproj",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Api\\App.Api.csproj",
+              "RelativeToolTip": "App.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-18T15:53:25.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.Application.csproj",
+              "DocumentMoniker": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\App.Application.csproj",
+              "RelativeDocumentMoniker": "..\\App.Application\\App.Application.csproj",
+              "ToolTip": "D:\\SmartData\\AI Assignment\\dotnetsmartPODBackendInitialArch\\App.Application\\App.Application.csproj",
+              "RelativeToolTip": "..\\App.Application\\App.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-09T17:41:34.952Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
